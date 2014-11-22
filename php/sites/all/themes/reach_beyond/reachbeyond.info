@@ -1,0 +1,30 @@
+name = Reach Beyond 
+description = A Responsive Theme built for Reach Beyond by Reynolds Consulting
+base theme = responsive_green
+core = 7.x
+engine = phptemplate
+
+; STYLESHEETS
+;----------------------------------------------------
+stylesheets[all][] = css/reachbeyond.css
+stylesheets[all][] = css/reachbeyond-media.css
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
+
+; SCRIPTS
+;----------------------------------------------------
+scripts[] = bootstrap/js/bootstrap.min.js
+
+; REGIONS
+;----------------------------------------------------
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[slideshow]      = Slideshow
+regions[top_first]      = Header First
+regions[top_second]     = Header Second
+regions[top_third]      = Header Third
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[footer_first]   = Bottom First
+regions[footer_second]  = Bottom Second
+regions[footer_third]   = Bottom Third
+regions[footer]         = Footer
